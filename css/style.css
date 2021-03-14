@@ -1,0 +1,104 @@
+.marginBox{
+  margin-top: -150px;
+  position: relative;
+  }
+.diagonalBox{
+  /* background: rgb(143, 208, 241); */
+  background-image:linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+  padding: 100px 0;
+  transform: skew(0deg,-4deg) translateY(-90px);
+  position: relative;
+  }
+.smallRound{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; 
+  text-align: center;
+  margin-left: 54%;
+  margin-top: -2%;
+ 
+}
+.myclr{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 10px;
+  border: 30px solid linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+}
+.blue {
+  background: -webkit-linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+}
+.card{
+ height: 550px;
+}
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid; }
+
+#authors img {
+  margin-top: -50px; }
+
+#authors .fa {
+  font-size: 25px; }
+.black{
+  color: black;
+}
+.avatarImg{
+  background: -webkit-linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+  width: 200px;
+  height: 200px;
+  border-radius: 1500px;
+  padding: 10px;
+  
+}
+.showcase{
+  background-image:linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);width: 111px;padding: 12px;
+}
+.crd{
+  width: 350px;
+  height: 500px;
+}
+.mybtn{
+  background:linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);width: 111px;padding: 12px; 
+  color: white !important;
+  width: 200px;
+}
+
+.color-black{
+  color: black;
+}
+.stat{
+  background-image:linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+
+}
+.circ{
+  border-color:linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%) !important
+}
+.cirArea{
+  width: 200px;height:200px; 
+  background: #C8F2EE;
+  border-radius: 50%;
+  border:30px solid;
+  border-color: gray #06BEB6 #06BEB6 #06BEB6;
+  margin-left:20%;
+}
+#authors .card:hover {
+  background: #3292a6;
+  color: black; }
+  #authors .card:hover .fa {
+    color: #fff; }
+@media only screen and (max-width: 768px){
+      .marginBox {
+      margin-top: -150px;
+      margin-left: 25%;
+      position: absolute;
+      }
+      .circledot {
+      height:40px;
+      width:40px;
+      margin-left:120px
+      }
+      .circlePer {
+      margin-left: 50px;
+  }
